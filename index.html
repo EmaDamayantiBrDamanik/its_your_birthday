@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 23rd, Bang Dap 🤍</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- BACKGROUND STARS -->
+    <div class="stars"></div>
+
+    <!-- OPENING -->
+    <section class="opening" id="opening">
+        <div class="opening-content">
+
+            <p class="small-title">A LITTLE SOMETHING FOR YOU</p>
+
+            <div class="gift">✦</div>
+
+            <h1>For Bang Dap</h1>
+
+            <p class="opening-text">
+                There is something waiting for you...
+            </p>
+
+            <button class="open-btn" onclick="openCard()">
+                OPEN
+                <span>→</span>
+            </button>
+
+        </div>
+    </section>
+
+
+    <!-- MAIN CONTENT -->
+    <main id="mainContent" class="hidden">
+
+        <!-- HERO -->
+        <section class="hero">
+
+            <p class="eyebrow">SEPTEMBER • 2026</p>
+
+            <h2>
+                HAPPY<br>
+                <span>23rd</span>
+            </h2>
+
+            <div class="gold-line"></div>
+
+            <p class="hero-name">BANG DAP</p>
+
+            <p class="hero-description">
+                From zara & cya
+            </p>
+
+        </section>
+
+
+        <!-- PHOTO -->
+        <section class="photo-section">
+
+            <div class="photo-frame">
+
+                <!-- GANTI FOTO DI SINI -->
+                <img src="assets/bngdap.jpeg" alt="Bang Dap">
+
+                <div class="photo-number">01</div>
+
+            </div>
+
+            <p class="photo-caption">
+                one of my favorite people.
+            </p>
+
+        </section>
+
+
+        <!-- LETTER -->
+        <section class="letter-section">
+
+            <p class="section-number">02 — A LETTER</p>
+
+            <h3>
+                For someone<br>
+                <em>special.</em>
+            </h3>
+
+            <div class="letter">
+
+                <p>Happy birthday, Bang Dap. 🤍</p>
+
+                <p>
+                    Hari ini abang genap 23 tahun.
+                    Mungkin aku nggak bisa ada di sana secara langsung
+                    buat ngerayain hari spesial abang, tapi aku tetap
+                    mau ngasih sedikit sesuatu dari jauh.
+                </p>
+
+                <p>
+                    Semoga di umur yang baru ini, abang selalu dikelilingi
+                    hal-hal baik. Semoga apa pun yang sedang abang
+                    perjuangkan satu per satu bisa tercapai.
+                </p>
+
+                <p>
+                    Jangan lupa juga buat menikmati hidup,
+                    istirahat kalau capek, dan tetap jadi diri abang
+                    yang selama ini aku kenal.
+                </p>
+
+                <p>
+                    Terima kasih sudah menjadi seseorang yang berarti.
+                    Jarak mungkin jauh, tapi semoga itu nggak pernah
+                    mengubah arti orang-orang yang saling menyayangi.
+                </p>
+
+                <p class="signature">
+                    — from zara & cya<br>
+                    always cheering for you.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- QUOTE -->
+        <section class="quote-section">
+
+            <div class="quote-mark">“</div>
+
+            <p>
+                May this new chapter<br>
+                be kinder to you.
+            </p>
+
+            <span>— chapter 23</span>
+
+        </section>
+
+
+        <!-- SURPRISE -->
+        <section class="surprise-section">
+
+            <p class="section-number">03 — ONE LAST THING</p>
+
+            <h3>
+                I have one<br>
+                more <em>message.</em>
+            </h3>
+
+            <button class="surprise-btn" onclick="showSurprise()">
+                OPEN SURPRISE
+                <span>✦</span>
+            </button>
+
+        </section>
+
+
+        <!-- FOOTER -->
+        <footer>
+
+            <div class="footer-symbol">✦</div>
+
+            <p>HAPPY 23rd, BANG DAP</p>
+
+            <small>
+                made with love, from afar.
+            </small>
+
+        </footer>
+
+    </main>
+
+
+    <!-- SURPRISE MODAL -->
+    <div class="modal hidden" id="surpriseModal">
+
+        <div class="modal-box">
+
+            <button class="close-btn" onclick="closeSurprise()">
+                ×
+            </button>
+
+            <div class="modal-star">✦</div>
+
+            <p class="modal-small">
+                ONE LAST THING
+            </p>
+
+            <h3>
+                Keep going,<br>
+                <em>you've got this.</em>
+            </h3>
+
+            <p>
+                Semoga umur 23 ini membawa lebih banyak
+                alasan untuk tersenyum, lebih banyak hal
+                yang bisa dibanggakan, dan lebih banyak
+                momen yang layak dikenang.
+            </p>
+
+            <strong>
+                Happy birthday, Bang Dap. 🤍
+            </strong>
+
+        </div>
+
+    </div>
+
+
+    <!-- MUSIC -->
+    <!-- Masukkan file musik ke assets/music.mp3 -->
+    <audio id="birthdayMusic" loop>
+        <source src="assets/music.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
